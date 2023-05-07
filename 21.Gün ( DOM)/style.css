@@ -1,0 +1,24 @@
+.dp{
+    display: flex;
+   justify-content: space-around;
+}
+
+.txt {
+    color: hsl(120, 100%, 50%);
+}
+
+.bg{
+    background-color: hsl(256, 50%, 20%);
+}
+
+.border {
+border: 2px dashed hsl(192, 100%, 70%);
+}
+
+.font-size {
+    font-size: x-large;
+}
+
+.font-family{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+border: 2px solid white;
+padding: 15px;
+margin-top: auto;
+width: fit-content;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+box-shadow: 0px 0px 25px 3px rgba(255,255,255,1);
+border-radius: 10px;
+}
+.container2 {
+border: 2px solid white;
+padding: 15px;
+margin-top: auto;
+width: fit-content;
+position: absolute;
+top: 56%;
+left: 50%;
+transform: translate(-50%, -50%);
+box-shadow: 0px 0px 25px 3px rgba(255,255,255,1);
+border-radius: 10px;
+visibility: hidden;
+}
+
+.box {
+color: white;
+
+
+}

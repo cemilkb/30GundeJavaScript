@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 120px;
+}
+
+.kaydirmacasyon {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    opacity: 00%;
+    transition: all 1s;
+}
+.animeGirl {
+    position: fixed;
+    bottom: 50%;
+    right: 27%;
+    opacity: 100%;
+}
+
+.vanish {
+    opacity: 0%;
+}
