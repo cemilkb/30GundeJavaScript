@@ -36,6 +36,14 @@ button {
     width: 125px;
 }
 
+button:hover {
+    background-color: green;
+}
+
+button:active {
+    background-color: black;
+}
+
 /* Error And Card */
 
 article {
@@ -91,7 +99,35 @@ section {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    display: flex   ;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.delete:hover {
+    background-color: yellow;
+}
+
+.delete:active {
+    background-color: red;
+}
+
+.plus:hover {
+    background-color: green;
+    color: white;
+}
+
+.plus:active {
+    background-color: white;
+    color: green;
+}
+
+.minus:hover {
+    background-color: red;
+    color: white;
+}
+
+.minus:active {
+    background-color: white;
+    color: red;
 }

@@ -46,6 +46,8 @@ submit.addEventListener("click", () => {
        todo: Add Class
        */
 
+
+
         card.classList.add("card")
         name.classList.add("name")
         countryCard.classList.add("country")
@@ -54,7 +56,7 @@ submit.addEventListener("click", () => {
 
         icon.classList.add("fa-solid")
         icon.classList.add("fa-trash-can")
-        icon.style.color = "#ff0000"
+        icon.style.color = "black"
 
         /* 
         todo: inner HTML 
@@ -64,7 +66,7 @@ submit.addEventListener("click", () => {
 
         let first = up(firstName.value)
         let last = up(lastName.value)
-        let fullN = first + " " +  last
+        let fullN = first + " " + last
 
         fullName.textContent = fullN
 
@@ -89,6 +91,10 @@ submit.addEventListener("click", () => {
         score.textContent = point.value
 
         // SPAN BUTTON
+
+        span1.setAttribute("class", "delete")
+        span2.setAttribute("class", "plus")
+        span3.setAttribute("class", "minus")
 
         span2.innerHTML = "+5"
         span3.innerHTML = "-5"
@@ -116,6 +122,25 @@ submit.addEventListener("click", () => {
         card.append(push)
 
         add.append(card)
+
+        // +5 -5 Delete
+
+        span1.addEventListener("click", () => {
+            add.removeChild(card)
+        })
+
+        span2.addEventListener("click", () => {
+            let a = parseInt(score.textContent)
+            a += 5
+            score.textContent = a
+        })
+
+        span3.addEventListener("click", () => {
+            let a = parseInt(score.textContent)
+            a -= 5
+            score.textContent = a
+        })
+
 
     }
 
